@@ -5,12 +5,13 @@ body{
     color: #1d1d1d;
     font-family: "Lexend", Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: #f2f1f1;
 }
 
 .header{
     width: 100%;
     padding: 20px 50px;
-    background-color: #a7a5a5;
+    background-color: #358e69aa;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,11 +32,12 @@ body{
     width: 100%;
     padding: 60px 0;
     text-align: center;
-    background-image: url("../img/Blank.bmp");
+    /*background-image: url("../img/Blank.bmp");*/
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     background-position-y: 60%;
+    background-color: rgba(139, 0, 0 , 0.7);
 }
 .banner__title{
     width: 100%;
@@ -60,6 +62,10 @@ body{
 .products__container{
     cursor: pointer;
     text-align: center;
+    border: 1px solid #fff;
+}
+.products__container:hover{
+    background-color: rgb(245, 247, 249);
 }
 .products__img{
     width: 200px;
